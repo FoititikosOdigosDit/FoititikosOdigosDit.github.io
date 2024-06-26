@@ -150,3 +150,18 @@ footer {
     text-decoration: none;
     cursor: pointer;
 }
+
+
+/* κουμπι */
+.my-button {
+    background-color: #4CAF50; /* Πράσινο φόντο */
+    border: none; /* Χωρίς περίγραμμα */
+    color: white; /* Λευκό κείμενο */
+    padding: 15px 32px; /* Γέμισμα */
+    text-align: center; /* Στοίχιση κειμένου στο κέντρο */
+    text-decoration: none; /* Χωρίς υπογράμμιση */
+    display: inline-block; /* Εμφάνιση σε γραμμή */
+    font-size: 16px; /* Μέγεθος γραμματοσειράς */
+    margin: 4px 2px; /* Περιθώριο */
+    cursor: pointer; /* Δρομέας χεριού */
+    border-radius: 4px; /* Στρογγυλεμένες γωνίες */
