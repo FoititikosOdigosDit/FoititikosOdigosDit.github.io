@@ -152,7 +152,7 @@ footer {
 }
 
 
-/* κουμπι */
+/* κουμπι discord */
 .my-button {
     background-color: #5865F2; /* discord φόντο */
     border: none; /* Χωρίς περίγραμμα */
@@ -165,3 +165,53 @@ footer {
     margin: 4px 2px; /* Περιθώριο */
     cursor: pointer; /* Δρομέας χεριού */
     border-radius: 4px; /* Στρογγυλεμένες γωνίες */
+}
+
+
+/* κουμπι FORMAS*/
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #444444;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+    
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
