@@ -17,6 +17,20 @@ header h1, header p {
     margin: 0;
 }
 
+.left-align {
+    color: white;         /* Αλλάζει το χρώμα του κειμένου σε λευκό */
+    font-weight: bold;    /* Κάνει το κείμενο bold */
+    text-align: right;     /* Τοποθετεί το κείμενο αριστερά */
+    display: block;       /* Κάνει το στοιχείο block για να ευθυγραμμιστεί αριστερά */
+}
+
+.left2-align {
+    color: rgb(54, 54, 54);         /* Αλλάζει το χρώμα του κειμένου σε λευκό */
+    font-weight: bold;    /* Κάνει το κείμενο bold */
+    text-align: left;     /* Τοποθετεί το κείμενο αριστερά */
+    display: block;       /* Κάνει το στοιχείο block για να ευθυγραμμιστεί αριστερά */
+}
+
 main {
     padding: 1rem;
 }
