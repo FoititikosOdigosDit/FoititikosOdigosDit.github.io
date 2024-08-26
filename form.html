@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>About Us - Φοιτητικός Οδηγός</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="left2-align"><strong>◄</strong> Πίσω</a>
+    </nav> 
+    <style>
+        nav {
+            display:flex ;
+            justify-content: flex-start; /* Στοίχιση των στοιχείων στα δεξιά */
+            padding-right: 20px; /* Προσθήκη κενού από την δεξιά πλευρά της σελίδας */
+            margin-top: 15px; /* Προσθήκη κενού από την κορυφή της σελίδας */
+        }
+        nav a {
+            margin-left: 10px; /* Προσθήκη απόστασης μεταξύ των links */
+        }
+    </style>
+<div class="container">
+    <h1>Επικοινωνία</h1>
+
+    <h2>Στείλε τις απορίες σου</h2>
+    <form action="https://formspree.io/f/xkgwnoko" method="POST" class="contact-form">
+        <label for="email">To e-mail στο οποίο θα σου απαντήσουμε:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Το μήνυμά σου:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">➤ Αποστολή</button>
+    </form>
+
+    <h2>Αναφορά προβλήματος</h2>
+    <p>Για να αναφέρετε κάποιο πρόβλημα παρακαλώ αποστείλετε email στο <br><center><strong><i>helpditstudents@gmail.com</i></strong></center> <br>με θέμα <strong>tech_support</strong> όπως <strong><u>ακριβώς</u></strong> το βλέπετε!</p>
+
+</div>
+
+</body>
+</html>
